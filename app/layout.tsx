@@ -13,6 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta name="google-site-verification" content="AEL6lgRikf_Y4eFAEufR-sSsdzfQTOJiSVV_dsQc28I" />
       <body className="antialiased bg-slate-950 text-slate-200">
         {children}
       </body>
