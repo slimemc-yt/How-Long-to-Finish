@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { 
   Search, 
   Clock, 
@@ -813,7 +814,9 @@ export default function ContentCompass() {
             </div>
           </div>
         )}
+        <SpeedInsights />
       </main>
     </div>
+    
   );
 }
