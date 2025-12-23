@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "How Long to Finish",
+  title: "Binge Watch Calculator - How Long to Finish TV Shows & Books",
   description: "Calculate binge watching and reading times",
 };
 
